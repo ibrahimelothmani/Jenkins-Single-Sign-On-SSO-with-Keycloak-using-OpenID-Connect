@@ -48,6 +48,24 @@ OpenID Connect (OIDC) is a modern authentication protocol built on top of OAuth 
 
 ---
 
+## Architecture
+
+This setup consists of three main components working together to provide secure Single Sign-On authentication:
+
+### Architecture Overview
+
+![Jenkins & Keycloak Architecture](Jenkins%20&%20Keycloak.png)
+
+The diagram above illustrates the overall architecture of the Jenkins-Keycloak SSO integration, showing how the components interact with each other.
+
+### Detailed Authentication Flow
+
+![Jenkins & Keycloak Authentication Flow](Jenkins%20&%20Keycloak%202.png)
+
+This diagram provides a detailed view of the authentication flow between users, Jenkins, and Keycloak.
+
+---
+
 **Component Relationship:**
 
 1. **Keycloak (Identity Provider)**: Acts as the central authentication server
